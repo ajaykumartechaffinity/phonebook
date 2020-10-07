@@ -42,3 +42,6 @@ class SimpleTest(TestCase):
         Tests that 5 % 2 always equals 1.
         """
         self.assertEqual(5 % 2, 1)
+
+    def test_basic_string(self):
+        self.assertEqual('sony', 'sony')
