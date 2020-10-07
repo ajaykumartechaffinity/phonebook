@@ -18,3 +18,9 @@ class SimpleTest(TestCase):
         Tests that 1 - 1 always equals 0.
         """
         self.assertEqual(1 - 1, 0)
+
+    def test_basic_multiplication(self):
+        """
+        Tests that  5 * 2 always equals 10.
+        """
+        self.assertEqual(5 * 2, 10)
