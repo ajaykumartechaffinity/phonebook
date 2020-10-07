@@ -30,3 +30,9 @@ class SimpleTest(TestCase):
         Tests that  10 / 2 always equals 5.
         """
         self.assertEqual(10 / 2, 5)
+
+    def test_basic_power(self):
+        """
+        Tests that 2 ** 2 always equals 4.
+        """
+        self.assertEqual(2 ** 2, 4)
