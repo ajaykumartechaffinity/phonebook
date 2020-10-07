@@ -24,3 +24,9 @@ class SimpleTest(TestCase):
         Tests that  5 * 2 always equals 10.
         """
         self.assertEqual(5 * 2, 10)
+
+    def test_basic_division(self):
+        """
+        Tests that  10 / 2 always equals 5.
+        """
+        self.assertEqual(10 / 2, 5)
