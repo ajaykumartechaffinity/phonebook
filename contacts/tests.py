@@ -36,3 +36,9 @@ class SimpleTest(TestCase):
         Tests that 2 ** 2 always equals 4.
         """
         self.assertEqual(2 ** 2, 4)
+
+    def test_basic_reminder(self):
+        """
+        Tests that 5 % 2 always equals 1.
+        """
+        self.assertEqual(5 % 2, 1)
