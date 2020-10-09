@@ -47,4 +47,4 @@ class SimpleTest(TestCase):
         self.assertEqual('sony', 'sony')
 
     def test_basic_integer(self):
-        self.assertEqual(5, 2)
+        self.assertEqual(5, 3)
