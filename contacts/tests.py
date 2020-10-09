@@ -48,3 +48,6 @@ class SimpleTest(TestCase):
 
     def test_basic_integer(self):
         self.assertEqual(5, 5)
+
+    def test_basic_greater(self):
+        self.assertGreater(5, 2)
