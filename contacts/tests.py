@@ -51,3 +51,6 @@ class SimpleTest(TestCase):
 
     def test_basic_greater(self):
         self.assertGreater(5, 2)
+
+    def test_basic_lesser(self):
+        self.assertLess(1, 2)
